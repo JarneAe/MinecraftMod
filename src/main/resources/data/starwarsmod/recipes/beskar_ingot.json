@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "copper_ingot",
+  "ingredients": [
+    {
+      "item": "starwarsmod:beskar_block"
+    }
+  ],
+  "result": {
+    "item": "starwarsmod:beskar",
+    "count": 9
+  }
+}

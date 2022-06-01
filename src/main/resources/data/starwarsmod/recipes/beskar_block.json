@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "starwarsmod:beskar"
+    }
+  },
+  "result": {
+    "item": "starwarsmod:beskar_block"
+  }
+}

@@ -1,5 +1,6 @@
 package com.jarne.starwarsmod.item;
 
+import com.jarne.starwarsmod.item.custom.DowsingRodItem;
 import com.jarne.starwarsmod.starwarsmod;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -12,8 +13,12 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, starwarsmod.MOD_ID);
 
-    public static final RegistryObject<Item> BINLEY = ITEMS.register("binley",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> BESKAR = ITEMS.register("beskar",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.MOD_TAB)));
+
+    public static final RegistryObject<Item> DOWSING_ROD = ITEMS.register("dowsing_rod",
+            () -> new DowsingRodItem(new Item.Properties().tab(ModCreativeModeTab.MOD_TAB).durability(16)));
+
 
 
 

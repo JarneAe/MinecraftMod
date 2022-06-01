@@ -1,5 +1,6 @@
 package com.jarne.starwarsmod.block;
 
+import com.jarne.starwarsmod.item.ModCreativeModeTab;
 import com.jarne.starwarsmod.item.ModItems;
 import com.jarne.starwarsmod.starwarsmod;
 import net.minecraft.world.item.BlockItem;
@@ -20,11 +21,11 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, starwarsmod.MOD_ID);
 
-    public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> SPICE_BLOCK = registerBlock("spice_block",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
-    public static final RegistryObject<Block> BINLEY_BLOCK = registerBlock("binley_block",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+    public static final RegistryObject<Block> BESKAR_BLOCK = registerBlock("beskar_block",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,CreativeModeTab tab){

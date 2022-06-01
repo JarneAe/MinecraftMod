@@ -1,5 +1,9 @@
 {
-  "item.starwarsmod.binley": "Binley",
-  "block.starwarsmod.citrine_block": "Citrine Block",
-  "block.starwarsmod.binley_block": "Binley Block"
+  "item.starwarsmod.beskar": "Beskar",
+  "block.starwarsmod.spice_block": "Spice Block",
+  "block.starwarsmod.beskar_block": "Beskar Block",
+  "itemGroup.starwars": "Star Wars Items",
+
+  "item.starwarsmod.dowsing_rod.no_valuables": "No Valuable Items Found",
+  "item.starwarsmod.dowsing_rod": "Dowsing Rod"
 }
