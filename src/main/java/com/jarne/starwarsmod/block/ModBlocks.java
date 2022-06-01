@@ -23,6 +23,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
 
+    public static final RegistryObject<Block> BINLEY_BLOCK = registerBlock("binley_block",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MISC);
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,CreativeModeTab tab){
         RegistryObject toReturn = BLOCKS.register(name,block);

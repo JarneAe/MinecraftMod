@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "starwarsmod:block/binley_block"
+  }
+}
