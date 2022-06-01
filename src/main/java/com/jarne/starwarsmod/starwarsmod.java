@@ -1,5 +1,6 @@
 package com.jarne.starwarsmod;
 
+import com.jarne.starwarsmod.block.ModBlocks;
 import com.jarne.starwarsmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -32,6 +33,8 @@ public class starwarsmod {
         eventBus.addListener(this::setup);
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
+
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
     }

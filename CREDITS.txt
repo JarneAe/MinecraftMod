@@ -1,1 +1,10 @@
-Credit to me
+SOME Textures by nanoattack :
+https://www.fiverr.com/nanoattack/help-design-and-draw-pixel-art
+
+distributed under CC BY-SA 4.0 International License:
+https://creativecommons.org/licenses/by-sa/4.0/
+
+If you use those textures, add this file to your repository and add this to your project!
+
+
+(will be changed to all custom textures)
