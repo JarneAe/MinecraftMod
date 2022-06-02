@@ -1,5 +1,6 @@
 package com.jarne.starwarsmod.block;
 
+import com.jarne.starwarsmod.block.custom.MovingWalkway;
 import com.jarne.starwarsmod.item.ModCreativeModeTab;
 import com.jarne.starwarsmod.item.ModItems;
 import com.jarne.starwarsmod.starwarsmod;
@@ -27,6 +28,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> BESKAR_BLOCK = registerBlock("beskar_block",
             ()-> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
+    public static final RegistryObject<Block> WALKWAY_BLOCK = registerBlock("walkway_block",
+            ()-> new MovingWalkway(BlockBehaviour.Properties.of(Material.METAL).strength(7f).requiresCorrectToolForDrops()), ModCreativeModeTab.MOD_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block,CreativeModeTab tab){
         RegistryObject toReturn = BLOCKS.register(name,block);
